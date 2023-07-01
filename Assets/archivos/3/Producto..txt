@@ -1,0 +1,24 @@
+package colecciones;
+
+/**
+ *
+ * @author 57313
+ */
+public class Producto {
+    private int id;
+    private String descripcion;
+
+    public Producto() {
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+    
+    
+    
+}

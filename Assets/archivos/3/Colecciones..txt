@@ -1,0 +1,42 @@
+package colecciones;
+
+import java.util.ArrayList;
+
+/**
+ *
+ * @author 57313
+ */
+public class Colecciones {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        ArrayList<String> lista = new ArrayList();
+        ArrayList<Producto> listaProducto = new ArrayList(); 
+        
+        ArrayList<String> lista2 = new ArrayList();
+        lista.add("pepito");
+        lista.add("pepita");
+        
+        
+        lista.add("alejo");
+        lista.add("liz");
+        lista.add("maria");
+        lista.add("juan");
+        lista.add("Camilo");
+        lista.add("Gabriela");
+        lista.add(3,"luis");
+        lista.add(2,"luisa");
+        
+        
+       
+        
+        
+        for (int i = 0; i <lista.size(); i++) {
+            System.out.println(lista.get(i));
+        }
+    }
+    
+}
